@@ -99,4 +99,20 @@ div[style*="margin: 0 20px;"] div:nth-child(4)::before{
     transition-duration: 1s;
 }
 
+/* 10 Percentuale nella barra di progresso */
+
+.progress-bar{
+    position: relative;
+}
+
+.progress-fill::before{
+    
+     position: absolute;
+     top: -7px;
+     right: 0%;
+     content: "65%";
+     color: white;
+     transform: scale(0.6);
+
+}
 
