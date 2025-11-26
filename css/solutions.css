@@ -61,3 +61,31 @@ div[style*="margin: 0 20px;"] div:nth-child(4)::before{
 }
 
 
+/* 7-8 Focus sui campi input */
+
+.goals-container input:focus-visible{
+    outline: 1px solid rgb(88, 133, 255);
+    box-shadow: 0 8px 16px 0 rgba(95, 131, 250, 0.2);
+    transition: ease-in-out 0.5s;
+}
+
+.goals-container input:focus{
+    border: 1px solid rgb(88, 133, 255);
+    box-shadow: 0 8px 16px 0 rgba(95, 131, 250, 0.2);
+    transition: ease-in-out 0.5s;
+}
+
+
+.goals-container select:focus{
+    border: 1px solid rgb(88, 133, 255);
+    box-shadow: 0 8px 16px 0 rgba(95, 131, 250, 0.2);
+    transition: ease-in-out 0.5s;
+}
+
+.goals-container select:focus-visible{
+    outline: 1px solid rgb(88, 133, 255);
+    box-shadow: 0 8px 16px 0 rgba(95, 131, 250, 0.2);
+    transition: ease-in-out 0.5s;
+}
+
+
