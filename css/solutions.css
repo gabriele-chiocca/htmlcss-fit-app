@@ -49,3 +49,15 @@ div.exercise-item:last-child {
     border-left: 5px solid #45f87bd0;
 }
 
+/* 6 Icona fulmine negli esercizi pari */
+
+div[style*="margin: 0 20px;"] div.exercise-item:nth-child(2)::before{
+    content:"⚡" ;
+}
+
+
+div[style*="margin: 0 20px;"] div:nth-child(4)::before{
+    content:"⚡" ;
+}
+
+
