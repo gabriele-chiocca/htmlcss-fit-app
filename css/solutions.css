@@ -116,3 +116,13 @@ div[style*="margin: 0 20px;"] div:nth-child(4)::before{
 
 }
 
+/* 11-12 Migliorie alla navigazione */
+
+.nav-footer .nav-item:hover{
+     background-color: #435f7a;
+     transition-duration: 0.5s;
+}
+
+.nav-footer a:first-child {
+    background-color: #435f7a;
+}
