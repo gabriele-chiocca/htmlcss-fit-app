@@ -1,0 +1,7 @@
+
+/* 1 Task */
+.stats-container div:first-child:before{
+    content:"🔥" ;
+    font-size: 30px;
+}
+
