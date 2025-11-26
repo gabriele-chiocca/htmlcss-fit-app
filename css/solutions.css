@@ -38,3 +38,9 @@
 }
 
 /* 5 Task Bordi verdi per primo e ultimo esercizio */
+
+div.exercise-item:first-child {
+    background-color: #ceffcc;
+    border-left: 5px solid #45f87bd0;
+}
+
