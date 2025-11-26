@@ -29,3 +29,12 @@
     transform: translateY(-5px);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 } 
+
+/* 4 Task Evidenziare il secondo piano di allenamento */
+
+.workout-section article:nth-child(3){
+    background-color: #f0f0bf;
+    border-left: 5px solid chocolate;
+}
+
+/* 5 Task Bordi verdi per primo e ultimo esercizio */
