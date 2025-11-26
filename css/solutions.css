@@ -126,3 +126,23 @@ div[style*="margin: 0 20px;"] div:nth-child(4)::before{
 .nav-footer a:first-child {
     background-color: #435f7a;
 }
+
+/* 13 Virgolette alla citazione */
+
+.quote-box{
+    position: relative;
+}
+
+.quote-box p::before{
+    position: absolute;
+    transform: translate(-14px, -7px) scale(2.5);
+    content: "“";
+    color: rgba(255, 255, 255, 0.699);
+}
+
+.quote-box p::after{
+    position: absolute;
+    transform: translate(67px, 18px) scale(2.5);
+    content: "”";
+    color: rgba(255, 255, 255, 0.699);
+}
