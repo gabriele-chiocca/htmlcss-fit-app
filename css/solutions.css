@@ -5,3 +5,20 @@
     font-size: 30px;
 }
 
+/* 2 Task Evidenziare la terza card e cambiare colore font */
+
+
+.stats-container div:nth-child(3){
+    background: #6b6be3;
+    background: linear-gradient(90deg, rgba(107, 107, 227, 1) 0%, rgba(158, 97, 237, 1) 100%);
+}
+
+.stats-container div:nth-child(3) span.stat-number {
+    color: white;
+}
+
+.stats-container div:nth-child(3) div.stat-label {
+    color: white;
+}
+
+
