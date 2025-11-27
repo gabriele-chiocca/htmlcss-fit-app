@@ -125,10 +125,12 @@ div[style*="margin: 0 20px;"] div:nth-child(4)::before{
 .nav-footer .nav-item:hover{
      background-color: #435f7a;
      transition-duration: 0.5s;
+     color: #a0a0f0;
 }
 
 .nav-footer a:first-child {
     background-color: #435f7a;
+    color: #a0a0f0;
 }
 
 /* 13 Virgolette alla citazione */
